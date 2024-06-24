@@ -1,0 +1,30 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/98.css/0.1.0/98.min.css');
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.window {
+    width: 600px;
+    margin-top: 20px;
+}
+
+#posts {
+    margin-bottom: 20px;
+}
+
+#commentForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#commentForm textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}

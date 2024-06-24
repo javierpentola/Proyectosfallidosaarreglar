@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/98.css/0.1.0/98.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="window" style="width: 300px;">
+        <div class="title-bar">
+            <div class="title-bar-text">Login</div>
+        </div>
+        <div class="window-body">
+            <form id="loginForm" method="POST" action="login.php">
+                <div class="field-row-stacked">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="field-row-stacked">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="button-row">
+                    <button type="submit">Login</button>
+                    <button type="button" onclick="loginAsGuest()">Entrar como Usuario</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

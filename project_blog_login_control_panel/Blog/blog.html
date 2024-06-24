@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/98.css/0.1.0/98.min.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div class="window" style="width: 600px; margin-top: 20px;">
+        <div class="title-bar">
+            <div class="title-bar-text">Blog</div>
+        </div>
+        <div class="window-body">
+            <div id="posts"></div>
+            <form id="commentForm">
+                <input type="hidden" id="postId" name="postId">
+                <textarea id="comment" name="comment" placeholder="Escribe tu comentario aquí..."></textarea>
+                <button type="submit">Comentar</button>
+            </form>
+        </div>
+    </div>
+    <script src="blog.js"></script>
+</body>
+</html>

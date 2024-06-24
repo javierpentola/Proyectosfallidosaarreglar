@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Control</title>
+    <link rel="stylesheet" href="control_panel.css">
+</head>
+<body>
+    <div class="control-panel-container">
+        <h1>Panel de Control</h1>
+        <form id="upload-form" action="control_panel.php" method="post" enctype="multipart/form-data">
+            <label for="title">Título:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="content">Contenido:</label>
+            <textarea id="content" name="content" required></textarea>
+            <label for="file">Archivo:</label>
+            <input type="file" id="file" name="file">
+            <button type="submit">Subir</button>
+        </form>
+    </div>
+    <script src="control_panel.js"></script>
+</body>
+</html>

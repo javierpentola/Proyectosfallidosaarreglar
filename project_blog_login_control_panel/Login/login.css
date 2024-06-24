@@ -1,0 +1,19 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/98.css/0.1.0/98.min.css');
+
+body {
+    background-color: #008080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.window {
+    width: 300px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+}
